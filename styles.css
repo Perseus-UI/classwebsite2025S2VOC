@@ -4,9 +4,10 @@ body {
     margin: 0px;
 }
 
-img {
+.logo {
     width: 150px;
     height: 150px;
+    padding: 5px;
 }
 .page-header {
     background-color: rgb(83, 83, 83);
@@ -14,6 +15,8 @@ img {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
 }
 .navigation a {
     color:rgb(44, 38, 38);
@@ -25,3 +28,10 @@ img {
 .navigation { 
     display:flex;
 }
+
+.nav-button {
+    background-color: transparent;
+    border-color: transparent;
+    display: none;
+}
+
